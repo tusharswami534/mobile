@@ -1,0 +1,12 @@
+* {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.pointer-event-none {
+    pointer-events: none;
+}

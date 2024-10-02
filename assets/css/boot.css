@@ -1,0 +1,356 @@
+.boot-body {
+    max-width: 375px !important;
+    min-height: 712px !important;
+}
+
+.start-div {
+
+    transform: translate(-50%, -50%);
+}
+
+.start-text {
+    font-size: 60px;
+    font-weight: 800;
+    position: relative;
+    animation: text 3s linear;
+}
+
+@keyframes text {
+    0% {
+        font-size: 0;
+    }
+
+    100% {
+        font-size: 60px;
+    }
+}
+
+.progress-line-parent {
+    max-width: 150px;
+    border: white;
+    height: 4px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.progress-line {
+    max-width: 150px;
+    background: #fff;
+    height: 4px;
+    width: 100%;
+    animation: progressLine 6s ease-in-out;
+}
+
+@keyframes progressLine {
+    0% {
+        width: 0%;
+    }
+
+    50% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+.android-div {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    background: black;
+    z-index: 1;
+    width: 100%;
+    height: 200px;
+    animation: androidTextDiv 8s linear;
+}
+
+@keyframes androidTextDiv {
+    0% {
+        left: -150%;
+    }
+
+    75% {
+        left: -150%;
+    }
+
+    100% {
+        left: 50%;
+    }
+}
+
+.font-60 {
+    font-size: 60px;
+}
+
+.text-div {
+    width: 270px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.text-a {
+    position: relative;
+    color: #77C159;
+    animation: textA 10s linear, colorA 13s linear;
+}
+
+@keyframes textA {
+    0% {
+        left: -100%;
+    }
+
+    80% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes colorA {
+    0% {
+        color: white;
+    }
+
+    80% {
+        color: white;
+    }
+
+    100% {
+        color: #77C159;
+    }
+}
+
+.text-n {
+    position: relative;
+    color: #77C159;
+    animation: textN 10.2s linear, colorN 13.2s linear;
+}
+
+@keyframes textN {
+    0% {
+        right: -100%;
+    }
+
+    80% {
+        right: -100%;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes colorN {
+    0% {
+        color: white;
+    }
+
+    80% {
+        color: white;
+    }
+
+    100% {
+        color: #77C159;
+    }
+}
+
+.text-d {
+    position: relative;
+    color: #77C159;
+    animation: textD 10.4s linear, colorD 13.4s linear;
+}
+
+@keyframes textD {
+    0% {
+        left: -100%;
+    }
+
+    80% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes colorD {
+    0% {
+        color: white;
+    }
+
+    80% {
+        color: white;
+    }
+
+    100% {
+        color: #77C159;
+    }
+}
+
+.text-r {
+    position: relative;
+    color: #77C159;
+    animation: textR 10.6s linear, colorR 13.6s linear;
+}
+
+@keyframes textR {
+    0% {
+        right: -100%;
+    }
+
+    80% {
+        right: -100%;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes colorR {
+    0% {
+        color: white;
+    }
+
+    80% {
+        color: white;
+    }
+
+    100% {
+        color: #77C159;
+    }
+}
+
+.text-o {
+    position: relative;
+    color: #77C159;
+    animation: textO 10.8s linear, colorO 13.8s linear;
+}
+
+@keyframes textO {
+    0% {
+        left: -100%;
+    }
+
+    80% {
+        left: -100%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes colorO {
+    0% {
+        color: white;
+    }
+
+    80% {
+        color: white;
+    }
+
+    100% {
+        color: #77C159;
+    }
+}
+
+.text-i {
+    position: relative;
+    color: #77C159;
+    animation: textI 11s linear, colorI 14s linear;
+}
+
+@keyframes textI {
+    0% {
+        right: -100%;
+    }
+
+    80% {
+        right: -100%;
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes colorI {
+    0% {
+        color: white;
+    }
+
+    80% {
+        color: white;
+    }
+
+    100% {
+        color: #77C159;
+    }
+}
+
+.text-ld {
+    position: relative;
+    color: #77C159;
+    animation: textLd 11.2s linear, colorLd 14.2s linear;
+}
+
+@keyframes textLd {
+    0% {
+        left: -200%;
+    }
+
+    80% {
+        left: -200%;
+    }
+
+    100% {
+        left: 0;
+    }
+}
+
+@keyframes colorLd {
+    0% {
+        color: white;
+    }
+
+    80% {
+        color: white;
+    }
+
+    100% {
+        color: #77C159;
+    }
+}
+
+.mobile-see {
+
+    left: 200%;
+    animation: hides 14.6s linear ;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+@keyframes hides {
+    0% {
+        left: 50%;
+    }
+
+    97% {
+        left: 50%;
+    }
+
+    100% {
+        left: 200%;
+
+    }
+}

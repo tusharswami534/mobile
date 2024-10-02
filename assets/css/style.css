@@ -1,0 +1,35 @@
+.max-mobile {
+    min-width: 375px;
+    width: 100%;
+    min-height: 712px;
+    background-image: url('../images/png/pexels-iamtausifhossain9321-1226302.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.icon-text {
+    font-size: 12px;
+    color: white;
+    font-weight: 500;
+}
+
+.max-375 {
+    max-width: 375px !important;
+}
+
+.z-100 {
+    z-index: 100;
+}
+
+.z-101 {
+    z-index: 101 !important;
+}
+
+.z-102 {
+    z-index: 1001;
+}
+
+#time {
+    font: ;
+}
