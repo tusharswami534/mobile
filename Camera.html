@@ -5,11 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
-  <body>
-<section style="max-width: 375px ; margin: auto; border-radius: 8px; border: 1px solid black; " >
-    <video style="height: 712px; aspect-ratio: 9/16;" id="video" width="375"  autoplay></video>
-    <div class="icon"></div>
+  <body onload="startTime()">
+<section style="max-width: 375px ; margin: auto; border-radius: 8px; border: 1px solid black; " class="position-relative" >
+  <div class="herder mb-1 position-absolute z-2 w-100 py-3 bg-black  d-flex justify-content-between align-items-center  px-3">
+    <div class="text-white fw-bold px-3" id="time">
+    </div>
+    <div>
+      <img src="./assets/images/svg/heade-icon.svg" alt="">
+    </div>
+  </div>
+  <div class="position-relative">
+    <img class="w-100" src="./assets/images/svg/camera-body.svg" alt="camera-body">
+    <video class="position-absolute z-1 " style=" left: 1.8%; height: 670px; aspect-ratio: 9/16;" id="video" width="360"  autoplay></video>
+  </div>
+<a style="bottom: 5.5% !important;" class="home-btn-div position-relative z-1 cursor-pointer position-absolute home-btn d-flex justify-content-center align-items-center camera-home" href="/index.html">
+      <img src="./assets/images/svg/home.svg " width="24 " alt="home-line" class="">
+</a>
+
 </section>
     <script>
         const video = document.getElementById('video');
@@ -24,5 +38,6 @@ navigator.mediaDevices.getUserMedia({ video: true })
     });
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/js/app.js"></script>
   </body>
 </html>

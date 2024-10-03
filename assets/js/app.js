@@ -20,7 +20,7 @@ function startTime() {
     let m = today.getMinutes();
     m = checkTime(m);
     document.getElementById('time').innerHTML = h + ":" + m;
-    setTimeout(startTime, 60000); // Update every minute
+    setTimeout(startTime, 3000); // Update every minute
 }
 
 function checkTime(i) {

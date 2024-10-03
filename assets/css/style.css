@@ -33,3 +33,30 @@
 #time {
     font: ;
 }
+
+.home-btn {
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.home-btn-div {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 1px solid white;
+    transition: all 300ms linear;
+}
+
+.camera-home {
+    border: 1px solid black !important;
+    bottom: 5.5% !important;
+}
+
+.home-btn-div:hover {
+    background-color: white;
+}
