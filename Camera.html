@@ -27,8 +27,6 @@
 </section>
     <script>
         const video = document.getElementById('video');
-
-// Request camera access
 navigator.mediaDevices.getUserMedia({ video: true })
     .then(stream => {
         video.srcObject = stream;
